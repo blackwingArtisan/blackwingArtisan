@@ -1,6 +1,6 @@
-I build small, working products where AI meets payments. Each one has a live demo, a test suite and a README that explains why it exists. Where money moves, code does the math and a person approves the exact amount before anything is sent.
+I build practical software for real people: tradespeople, renters, learners, couples planning a wedding, small teams. Each project ships as a working product with a live demo, a test suite and a README that explains the problem it solves.
 
-### AI + PayPal · TypeScript, Next.js, Claude
+### Full-stack web apps · TypeScript, Next.js, AI
 
 | Project | What it does | Try it |
 |---|---|---|
@@ -9,7 +9,7 @@ I build small, working products where AI meets payments. Each one has a live dem
 | [deposit-referee](https://github.com/blackwingArtisan/deposit-referee) | Security deposits on a PayPal hold. Claude compares check-in and check-out photos, the renter can contest, and the host approves each capture. | [Live demo](https://deposit-referee.onrender.com) · [Video](https://youtu.be/DxEgaxnYA4k) |
 | [vendor-timeline](https://github.com/blackwingArtisan/vendor-timeline) | Wedding vendor payments: Claude reads each contract, a cash plan stays within what the contracts allow, and family members can pay vendors through PayPal. | [Live demo](https://vendor-timeline.onrender.com) · [Video](https://youtu.be/tR-ymoU2zgg) |
 
-### Smart contracts · Rust, NEAR
+### Smart contracts · Rust
 
 | Project | What it does | Try it |
 |---|---|---|
@@ -18,6 +18,7 @@ I build small, working products where AI meets payments. Each one has a live dem
 
 ### How I work
 
-- **Money paths are guarded in code.** AI drafts and explains; deterministic code checks limits and totals, and a person approves before money moves.
+- **Start from the user's problem.** Each README opens with who it's for and why it matters.
+- **Guardrails in code.** AI suggests and explains; deterministic code enforces the rules, and a person makes the final call.
 - **Tested.** Every repo has a test suite: roughly 300 to 390 tests in each TypeScript project, and contract tests in each Rust one.
 - **Built with [Claude Code](https://claude.com/claude-code)**, with the tests and demos to show it works.
