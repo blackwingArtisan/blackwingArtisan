@@ -1,0 +1,23 @@
+I build small, working products where AI meets payments. Each one has a live demo, a test suite and a README that explains why it exists. Where money moves, code does the math and a person approves the exact amount before anything is sent.
+
+### AI + PayPal · TypeScript, Next.js, Claude
+
+| Project | What it does | Try it |
+|---|---|---|
+| [say-voice](https://github.com/blackwingArtisan/say-voice) | Voice-to-invoice for tradespeople: say the job, get a PayPal invoice. A spoken price far from your own past invoices is flagged before it goes out. | [Live demo](https://say-voice.onrender.com) · [Video](https://youtu.be/eiHics6TfTc) |
+| [pass-or-refund](https://github.com/blackwingArtisan/pass-or-refund) | Online courses that pay you back if they can't teach you. Claude grades against a public rubric; a second fail routes a PayPal refund to a person for approval. | [Live demo](https://pass-or-refund.onrender.com) · [Video](https://youtu.be/-HSBcMwgfaY) |
+| [deposit-referee](https://github.com/blackwingArtisan/deposit-referee) | Security deposits on a PayPal hold. Claude compares check-in and check-out photos, the renter can contest, and the host approves each capture. | [Live demo](https://deposit-referee.onrender.com) · [Video](https://youtu.be/DxEgaxnYA4k) |
+| [vendor-timeline](https://github.com/blackwingArtisan/vendor-timeline) | Wedding vendor payments: Claude reads each contract, a cash plan stays within what the contracts allow, and family members can pay vendors through PayPal. | [Live demo](https://vendor-timeline.onrender.com) · [Video](https://youtu.be/tR-ymoU2zgg) |
+
+### Smart contracts · Rust, NEAR
+
+| Project | What it does | Try it |
+|---|---|---|
+| [leash](https://github.com/blackwingArtisan/leash) | On-chain spending limits for AI agents. The agent's key can only ask the contract to pay; allowlists, caps and a tripwire are enforced on-chain, where a prompt injection can't change them. | [Dashboard](https://blackwingartisan.github.io/leash/) · [Video](https://x.com/stubbornotterhq/status/2121694183538962781) |
+| [rungs](https://github.com/blackwingArtisan/rungs) | Team bounty payouts where approval scales with payout size and earned reputation. Small payouts are instant; big ones go to a Sputnik DAO vote. | [Dashboard](https://blackwingartisan.github.io/rungs/) · [Video](https://x.com/stubbornotterhq/status/2121694438951158089) |
+
+### How I work
+
+- **Money paths are guarded in code.** AI drafts and explains; deterministic code checks limits and totals, and a person approves before money moves.
+- **Tested.** Every repo has a test suite: roughly 300 to 390 tests in each TypeScript project, and contract tests in each Rust one.
+- **Built with [Claude Code](https://claude.com/claude-code)**, with the tests and demos to show it works.
